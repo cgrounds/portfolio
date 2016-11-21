@@ -2,7 +2,7 @@
   "name": "router-practice",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://myusername.github.io/my-app",
+  "homepage": "http://cgrounds.github.io/portfolio",
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "react-scripts": "0.7.0"
