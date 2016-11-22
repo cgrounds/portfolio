@@ -8,6 +8,7 @@ import Contact from './Contact.js'
 import About from './About.js'
 import Portfolio from './Portfolio.js'
 import NotFound from './NotFound'
+import Resume from './Resume.js'
 import {Router, Route, hashHistory, browserHistory, IndexRoute} from 'react-router';
 
 ReactDOM.render(
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Route path="contact" component={Contact}/>
       <Route path="about" component={About}/>
       <Route path="portfolio" component={Portfolio}/>
+      <Route path="resume" component={Resume}/>
     </Route>
 
   </Router>,

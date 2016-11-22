@@ -58,21 +58,27 @@ a{
   margin-left: 5px;
   width: 40%;
  }
+
 a:hover {
    filter: blur(1px) grayscale(10%);
  }
 
  /*Contact Page*/
-   @keyframes contact{
-     0%   {background-color:#FFFFFF; opacity: 0;}
-    15%  {background-color:#D3D0CB;}
-    30%  {background-color:#E7E5DF;}
-    45%  {background-color:#B4B8AB;}
-    60% {background-color: #E7E5DF;}
-    75%  {background-color:#D3D0CB;}
-    90% {background-color: #FFFFFF;}
-    100% {background-color:#B4B8AB; opacity: 1; }
-
+ @keyframes contact{
+   0%   {background-color:#FFFFFF;}
+  15%  {background-color:#D3D0CB;}
+  30%  {background-color:#E7E5DF;}
+  45%  {background-color:#B4B8AB;}
+  60% {background-color: #E7E5DF;}
+  75%  {background-color:#D3D0CB;}
+  90% {background-color: #FFFFFF;}
+  100% {background-color:#B4B8AB;}
+  from {
+      -webkit-transform: translateX(100px);
+   }
+   to {
+      -webkit-transform: translateX(10px);
+   }
   }
   .nav{
   color: black;
@@ -110,7 +116,8 @@ a:hover {
 #contactHeader{
   border-bottom: 2px solid black;
   margin: 0 auto;
-  width: 40%
+  width: 40%;
+  color: red;
 }
 
 .nav a{
@@ -125,6 +132,7 @@ a:hover {
   font-size: 80%;
   padding:10px;
   margin-top: 0px;
+  color: black;
 }
 
 #portfolio{
@@ -146,14 +154,20 @@ a:hover {
 }
 
 @keyframes portfolio{
-  0%  {background-color:#FFFFFF; opacity: 0; }
+  0%  {background-color:#FFFFFF;}
  15%  {background-color:#D3D0CB;}
  30%  {background-color:#E7E5DF;}
  45%  {background-color:#B4B8AB;}
- 60%  {background-color: #E7E5DF;  opacity: 1;}
+ 60%  {background-color: #E7E5DF;}
  75%  {background-color:#D3D0CB;}
  90%  {background-color: #FFFFFF;}
  100%  {background-color: #B4B8AB;}
+ from {
+     -webkit-transform: translateX(100px);
+  }
+  to {
+     -webkit-transform: translateX(10px);
+  }
 }
 
 
@@ -175,4 +189,50 @@ a:hover {
 
 #resume{
   color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: black;
+  width: 50%;
+  opacity: .7;
+  margin-left: 10px;
+  -webkit-animation-name: resume;
+  -webkit-animation-duration: 4s;
+  animation-name: resume;
+  animation-duration: 15s;
+  animation-iteration-count: 1;
+}
+
+@keyframes resume{
+  0%  {opacity: 0;}
+ 60%  {opacity: 1;}
+ from {
+     -webkit-transform: translateX(100px);
+  }
+  to {
+     -webkit-transform: translateX(10px);
+  }
+
+}
+
+#resume h2{
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+#resume h3{
+  margin-left: 10px;
+}
+#resume h4{
+  margin-left: 40px;
+  margin-top: 1px;
+  padding-top: 1px;
+}
+#resume h5{
+  margin-left: 60px;
+}
+#resume a{
+  font-size: 30px;
+  color: red;
+}
+#design{
+  text-align: center;
 }

@@ -8,9 +8,6 @@ class Portfolio extends Component {
       <a target="_blank" href="http://www.lillalane.com"><img src="../images/lillalane.png"/></a>
       <a target="_blank" href="https://www.clintgrounds.com"><img src="../images/clintgroundswebsite.png"/></a>
       <a target="_blank" href="https://bakertx.github.io/sandbox/"><img src="../images/sandbox.png"/></a>
-
-
-
       </div>
     )
   }
