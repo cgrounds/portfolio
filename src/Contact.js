@@ -14,18 +14,16 @@ class Contact extends Component {
             </h3>
             <div id="socialMedia">
             <a href="https://www.facebook.com/clintgrounds">
-            <img src="../images/facebook.png" role="presentation"/>
+            <img src={require('../public/images/facebook.png')} role="presentation"/>
             </a>
 
             <a href="https://www.linkedin.com/in/clintgrounds">
-            <img src="../images/linkedin.png" role="presentation"/></a>
+            <img src={require('../public/images/linkedin.png')} role="presentation"/></a>
 
-            <a href="https://pinterest.com/clintgrounds"><img src="../images/pinterest.png" role="presentation"/></a>
+            <a href="http://instagram.com/clinstagramed"><img src={require('../public/images/instagram.png')} role="presentation"/></a>
 
             <a href="https://open.spotify.com/user/125505429">
-            <img src="../images/spotify.png" role="presentation"/></a>
-            
-            {/* <a href="http://instagram.com/clinstagramed"></a> */}
+            <img src="/images/spotify.png" role="presentation"/></a>
             </div>
 
       </div>
