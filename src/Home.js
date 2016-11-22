@@ -1,13 +1,14 @@
-// import React, { Component } from 'react';
-//
-// class Home extends Component {
-//   render(){
-//     return(
-//       <div>
-//           <h2>Home Content will go in here</h2>
-//       </div>
-//     )
-//   }
-// }
-//
-// export default Home;
+import React, { Component } from 'react';
+
+class Home extends Component {
+  render(){
+    return(
+      <div>
+          <h3 id="home">C L I N T G R O U N D S</h3>
+          <hr />
+      </div>
+    )
+  }
+}
+
+export default Home;

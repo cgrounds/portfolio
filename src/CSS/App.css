@@ -2,11 +2,45 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: url(https://static1.squarespace.com/static/53ceeaa1e4b014ac698827a1/53f66b1be4b08b44983ffc03/53f66b31e4b08b44983ffc22/1408658275416/NINA_01.gif?format=1000w);
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
+  background: url(https://media.giphy.com/media/l0MYv7UPyB1tCiBag/giphy.gif) right;
+  background-repeat: repeat-y;
+  -webkit-animation-name: body;
+  -webkit-animation-duration: 1s;
+  animation-name: body;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes body{
+  0%   {background-color:#1B1B1E;}
+  15%  {background-color:#575A5E;}
+  30%  {background-color:#1B1B1E;}
+  45%  {background-color:#020402;}
+  60% {background-color: #1B1B1E;}
+  75%  {background-color:#575A5E;}
+  90% {background-color: #D3D0CB;}
+  100% {background-color:#020402;}
+}
+
+
+#home{
+  text-align: center;
   color: white;
+  letter-spacing: 5px;
+  -webkit-animation-name: home;
+  -webkit-animation-duration: 1s;
+  animation-name: home;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+}
+
+@keyframes home{
+  from {
+      -webkit-transform: translateX(100px);
+   }
+   to {
+      -webkit-transform: translateX(10px);
+   }
 }
 
 #root{
@@ -14,12 +48,7 @@ body {
   display: inline;
 }
 
-.HomeLinks{
-  width: 20%;
-  display: inline;
-}
-
- a{
+a{
   display: flex;
   color: white;
   text-decoration: none;
@@ -29,61 +58,44 @@ body {
   margin-left: 5px;
   width: 40%;
  }
-
-
 a:hover {
    filter: blur(1px) grayscale(10%);
  }
 
  /*Contact Page*/
    @keyframes contact{
-     0%   {background-color:#FF002E;}
-  15%  {background-color:#FE00D6;}
-  30%  {background-color:#D600FE;}
-  45%  {background-color:#3200FF;}
-  60% {background-color: #00E1FF;}
-  75%  {background-color:#00FFAD;}
-  90% {background-color: #29FD00;}
-  90% {background-color: #FED400;}
-
-  /*0%   {background-color:#27FEC2;}
-25%  {background-color:#07BEB8;}
-50%  {background-color:#8DE7CB;}
-75%  {background-color:#48E5C2;}
-100% {background-color: #27FEC2;}*/
-  /*from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }*/
+     0%   {background-color:#FFFFFF; opacity: 0;}
+    15%  {background-color:#D3D0CB;}
+    30%  {background-color:#E7E5DF;}
+    45%  {background-color:#B4B8AB;}
+    60% {background-color: #E7E5DF;}
+    75%  {background-color:#D3D0CB;}
+    90% {background-color: #FFFFFF;}
+    100% {background-color:#B4B8AB; opacity: 1; }
 
   }
   .nav{
-  background-color: red;
   color: black;
-  float: right;
+  float: left;
   opacity: .7;
   font-size: 30px;
   width: 40%;
-  /*background-color: white;*/
+  background-color: white;
   font-family: 'Wire One';
   text-align: center;
   -webkit-animation-name: contact;
   -webkit-animation-duration: 4s;
   animation-name: contact;
   animation-duration: 15s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   }
 
-
-  #socialMedia a{
+#socialMedia a{
     display: inline-block;
     width: 47px;
     margin-left: 0;
     margin-top: -10%;
     padding-top: 0px;
-
   }
 
 #socialMedia img{
@@ -91,45 +103,76 @@ a:hover {
   width: 40px;
 }
 
-  .nav:hover{
-    opacity: 1;
-  }
+.nav:hover{
+  opacity: 1;
+}
 
-  #contactHeader{
-    border-bottom: 2px solid black;
-    margin: 0 auto;
-    width: 40%
-  }
+#contactHeader{
+  border-bottom: 2px solid black;
+  margin: 0 auto;
+  width: 40%
+}
 
-  .nav a{
-    color: black;
-    font-size: 100%;
-    margin-left: 25%;
-  }
+.nav a{
+  color: black;
+  font-size: 100%;
+  margin-left: 25%;
+}
 
-  /*About*/
+/*About*/
 
-  #about p{
-    font-size: 80%;
-    padding:10px;
-    margin-top: 0px;
-  }
+#about p{
+  font-size: 80%;
+  padding:10px;
+  margin-top: 0px;
+}
 
 #portfolio{
+  background-color: white;
   width: 100%;
-  /*opacity: .7;*/
+  opacity: .8;
   display: flex;
-  justify-content: center;
   margin-top: 15%;
   height: 100%;
+  -webkit-animation-name: portfolio;
+  -webkit-animation-duration: 4s;
+  animation-name: portfolio;
+  animation-duration: 15s;
+  animation-iteration-count: 1;
+}
+
+#portfolio:hover{
+  opacity: 1;
+}
+
+@keyframes portfolio{
+  0%  {background-color:#FFFFFF; opacity: 0; }
+ 15%  {background-color:#D3D0CB;}
+ 30%  {background-color:#E7E5DF;}
+ 45%  {background-color:#B4B8AB;}
+ 60%  {background-color: #E7E5DF;  opacity: 1;}
+ 75%  {background-color:#D3D0CB;}
+ 90%  {background-color: #FFFFFF;}
+ 100%  {background-color: #B4B8AB;}
+}
+
+
+#portfolio a{
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 26px;
 }
 
   /*Portfolio*/
 #portfolio img{
-  display: flex;
-  justify-content: center;
-  height: 50%;
-  width: 60%;
+  height: 80%;
+  width: 80%;
   margin-top: 10%;
   margin-bottom: 10%;
+  margin-left: 40px;
+}
+
+#resume{
+  color: white;
 }
