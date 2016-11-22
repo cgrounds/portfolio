@@ -22,7 +22,6 @@ body {
   100% {background-color:#020402;}
 }
 
-
 #home{
   text-align: center;
   color: white;
@@ -135,6 +134,7 @@ a:hover {
   color: black;
 }
 
+  /*Portfolio*/
 #portfolio{
   background-color: white;
   width: 100%;
@@ -170,7 +170,6 @@ a:hover {
   }
 }
 
-
 #portfolio a{
   color: black;
   display: flex;
@@ -178,7 +177,6 @@ a:hover {
   font-size: 26px;
 }
 
-  /*Portfolio*/
 #portfolio img{
   height: 80%;
   width: 80%;
@@ -186,6 +184,8 @@ a:hover {
   margin-bottom: 10%;
   margin-left: 40px;
 }
+
+/*RESUME*/
 
 #resume{
   color: white;
@@ -210,8 +210,8 @@ a:hover {
   to {
      -webkit-transform: translateX(10px);
   }
-
 }
+
 
 #resume h2{
   text-align: center;
