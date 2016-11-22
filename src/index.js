@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './CSS/index.css';
 import Home from './Home.js'
 import Shop from './Shop.js'
 import Contact from './Contact.js'
@@ -9,7 +8,7 @@ import About from './About.js'
 import Portfolio from './Portfolio.js'
 import NotFound from './NotFound'
 import Resume from './Resume.js'
-import {Router, Route, hashHistory, browserHistory, IndexRoute} from 'react-router';
+import {Router, Route, hashHistory, IndexRoute} from 'react-router';
 
 ReactDOM.render(
   <Router history={hashHistory}>
