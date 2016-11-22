@@ -51,7 +51,7 @@ a{
   display: flex;
   color: white;
   text-decoration: none;
-  margin: auto;;
+  /*margin: auto;*/
   font-family: 'Wire One';
   font-size: 200%;
   margin-left: 5px;
@@ -99,7 +99,7 @@ a:hover {
     display: inline-block;
     width: 47px;
     margin-left: 0;
-    margin-top: -10%;
+    margin-top: 5%;
     padding-top: 0px;
   }
 
@@ -119,10 +119,13 @@ a:hover {
   color: red;
 }
 
-.nav a{
+
+#email{
   color: black;
-  font-size: 100%;
-  margin-left: 25%;
+  font-size: 110%;
+  display: inline;
+  margin: 0 auto;
+  margin-top: 2px;
 }
 
 /*About*/

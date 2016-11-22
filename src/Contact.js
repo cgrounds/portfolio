@@ -3,15 +3,16 @@ import React, { Component } from 'react';
 class Contact extends Component {
   render(){
     return(
-      <div className="nav">
+      <div className="nav" id="contact">
           <h2 id="contactHeader">contact</h2>
           <h3>
             usa 1.812.798.2406
             <br />
             bali +62.812.3636.8255
             <br />
+          </h3>
             <a id="email" href="mailto:clintgrounds@gmail.com">clintgrounds@gmail.com</a>
-            </h3>
+            <br />
             <div id="socialMedia">
             <a href="https://www.facebook.com/clintgrounds">
             <img src={require('../public/images/facebook.png')} role="presentation"/>
