@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './CSS/App.css';
-import Home from './Home.js';
-import Contact from './Contact.js';
-// import Shop from './Shop.js';
-import About from './About.js';
-import Portfolio from './Portfolio.js';
-import Resume from './Resume.js';
-import {Link, IndexLink} from 'react-router';
+// import Home from './Home.js';
+// import Contact from './Contact.js';
+// // import Shop from './Shop.js';
+// import About from './About.js';
+// import Portfolio from './Portfolio.js';
+// import Resume from './Resume.js';
+import {Link} from 'react-router';
 
 class App extends Component {
   // var scope = getElementsByClassName('kaleid_cont')

@@ -13,12 +13,19 @@ class Contact extends Component {
             <a id="email" href="mailto:clintgrounds@gmail.com">clintgrounds@gmail.com</a>
             </h3>
             <div id="socialMedia">
-            <a href="https://www.facebook.com/clintgrounds"><img src="../images/facebook.png"/>
+            <a href="https://www.facebook.com/clintgrounds">
+            <img src="../images/facebook.png" role="presentation"/>
             </a>
-            <a href="https://www.linkedin.com/in/clintgrounds"><img src="../images/linkedin.png"/></a>
-            <a href="https://pinterest.com/clintgrounds"><img src="../images/pinterest.png"/></a>
-            <a href="https://open.spotify.com/user/125505429"><img src="../images/spotify.png"/></a>
-            <a href="http://instagram.com/clinstagramed"></a>
+
+            <a href="https://www.linkedin.com/in/clintgrounds">
+            <img src="../images/linkedin.png" role="presentation"/></a>
+
+            <a href="https://pinterest.com/clintgrounds"><img src="../images/pinterest.png" role="presentation"/></a>
+
+            <a href="https://open.spotify.com/user/125505429">
+            <img src="../images/spotify.png" role="presentation"/></a>
+            
+            {/* <a href="http://instagram.com/clinstagramed"></a> */}
             </div>
 
       </div>
