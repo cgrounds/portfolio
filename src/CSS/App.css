@@ -80,17 +80,23 @@ a:hover {
    }
   }
   .nav{
-  color: black;
+  color: white;
   float: left;
   opacity: .7;
   font-size: 30px;
   width: 40%;
-  background-color: white;
+  background-color: black;
   font-family: 'Wire One';
+  letter-spacing: 2px;
   text-align: center;
-  -webkit-animation-name: contact;
+  /*-webkit-animation-name: contact;
   -webkit-animation-duration: 4s;
   animation-name: contact;
+  animation-duration: 15s;
+  animation-iteration-count: 1;*/
+  -webkit-animation-name: resume;
+  -webkit-animation-duration: 4s;
+  animation-name: resume;
   animation-duration: 15s;
   animation-iteration-count: 1;
   }
@@ -106,6 +112,7 @@ a:hover {
 #socialMedia img{
   height: 40px;
   width: 40px;
+  background-color: white;
 }
 
 .nav:hover{
@@ -113,7 +120,7 @@ a:hover {
 }
 
 #contactHeader{
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
   margin: 0 auto;
   width: 40%;
   color: red;
@@ -121,8 +128,8 @@ a:hover {
 
 
 #email{
-  color: black;
-  font-size: 110%;
+  color: white;
+  font-size: 100%;
   display: inline;
   margin: 0 auto;
   margin-top: 2px;
@@ -134,12 +141,12 @@ a:hover {
   font-size: 80%;
   padding:10px;
   margin-top: 0px;
-  color: black;
+  color: white;
 }
 
   /*Portfolio*/
 #portfolio{
-  background-color: white;
+  background-color: black;
   width: 100%;
   opacity: .8;
   display: flex;
