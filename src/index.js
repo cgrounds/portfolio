@@ -7,6 +7,7 @@ import Contact from './Contact.js'
 import About from './About.js'
 import Portfolio from './Portfolio.js'
 import Resume from './Resume.js'
+import NotFound from './NotFound.js'
 import {Router, Route, hashHistory, IndexRoute} from 'react-router';
 
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Route path="about" component={About}/>
       <Route path="portfolio" component={Portfolio}/>
       <Route path="resume" component={Resume}/>
+      <Route path="#" component={NotFound}/>
     </Route>
 
   </Router>,
