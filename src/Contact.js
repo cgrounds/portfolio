@@ -24,7 +24,7 @@ class Contact extends Component {
             <a href="http://instagram.com/clinstagramed"><img src={require('../public/images/instagram.png')} role="presentation"/></a>
 
             <a href="https://open.spotify.com/user/125505429">
-            <img src="/images/spotify.png" role="presentation"/></a>
+            <img src="../public/images/spotify.png" role="presentation"/></a>
             </div>
 
       </div>
