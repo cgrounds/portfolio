@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './CSS/index.css';
 import Home from './Home.js'
-import Shop from './Shop.js'
 import Contact from './Contact.js'
 import About from './About.js'
 import Portfolio from './Portfolio.js'
@@ -14,7 +13,6 @@ ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
-      <Route path="shop" component={Shop}/>
       <Route path="contact" component={Contact}/>
       <Route path="about" component={About}/>
       <Route path="portfolio" component={Portfolio}/>
