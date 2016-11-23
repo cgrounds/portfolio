@@ -123,7 +123,7 @@ a:hover {
   border-bottom: 2px solid white;
   margin: 0 auto;
   width: 40%;
-  color: red;
+  color: #EFCA08;
 }
 
 
@@ -241,7 +241,7 @@ a:hover {
 }
 #resume a{
   font-size: 30px;
-  color: red;
+  color: #EFCA08;
 }
 #design{
   text-align: center;
