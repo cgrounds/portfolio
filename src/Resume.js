@@ -33,7 +33,7 @@ class Resume extends Component {
               <h5>&#9702;Oversaw event registration and managed event closure, including the orchestrating personalized acknowledgements and collecting receivables</h5>
 
             <h3><a href="http://www.edelweisslodgeandresort.com/">Edelweiss Lodge & Resort</a>Resident Services</h3>
-             <h4>Austin, TX</h4>
+             <h4>Garmisch-Partenkirchen, Germany</h4>
               <h5>&#9702;Managed operational workings of a world-class luxury resort and recreation center</h5>
               <h5>&#9702;Served as resident advisor to over 250 global employees living in staff housing</h5>
               <h5>&#9702;Created, planned and implemented housing effectiveness programs </h5>
