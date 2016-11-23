@@ -5,7 +5,7 @@ class Resume extends Component {
     return(
       <div id="resume">
           <h2>E X P E R I E N C E</h2>
-            <h3> <a href="www.lillalane.com">Lilla Lane</a>Assistant Director & Operations Manager </h3>
+            <h3> <a href="http://www.lillalane.com">Lilla Lane</a>Assistant Director & Operations Manager </h3>
               <h4>Bali, Indonesia / Singapore</h4>
               <h5>&#9702;Oversaw and managed 4 retail stores in Bali and spearheaded the planning, construction and the opening of a new Singapore location</h5>
               <h5>&#9702;Adapted to diverse cultural environments and learned the native language to train, manage, and develop a team of 50+ employees</h5>
