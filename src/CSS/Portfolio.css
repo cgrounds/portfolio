@@ -1,0 +1,42 @@
+.item-info{
+  visibility: visible;
+  color: white;
+  float: right;
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  background-color: black;
+  opacity: .9;
+  font-size: 80%
+}
+
+.item-info h2{
+  border-bottom: 2px solid #EFCA08;
+}
+
+.item{
+  width: 60%;
+}
+
+.item a {
+  width: 0%;
+  position: relative;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden{
+  visibility: hidden;
+  width: 50%;
+}
+
+#portfolio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}

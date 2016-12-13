@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
 import './CSS/App.css';
-// import Home from './Home.js';
-// import Contact from './Contact.js';
-// // import Shop from './Shop.js';
-// import About from './About.js';
-// import Portfolio from './Portfolio.js';
-// import Resume from './Resume.js';
 import {Link} from 'react-router';
 
 class App extends Component {
@@ -13,21 +7,18 @@ class App extends Component {
 
   render() {
     return (
-
-      <aside>
-          <Link to="/"activeClassName="home">Home</Link>
+      <div>
+          <Link to="/" className="active">Home</Link>
           <br />
-          <Link to="/contact"activeClassName="active">Contact</Link>
+          <Link to="/contact" className="active">Contact</Link>
           <br />
-          {/* <Link to="/shop"activeClassName="active">Shop</Link>
-          <br /> */}
-          <Link to="/about"activeClassName="active">About</Link>
+          <Link to="/about" className="active">About</Link>
           <br />
-          <Link to="/portfolio"activeClassName="active">Portfolio</Link>
+          <Link to="/portfolio" className="active">Portfolio</Link>
           <br />
-          <Link to="/resume"activeClassName="active">Resume</Link>
+          <Link to="/resume" className="active">Resume</Link>
         {this.props.children}
-        </aside>
+      </div>
     );
   }
 }

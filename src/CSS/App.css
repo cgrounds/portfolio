@@ -55,10 +55,10 @@ a{
   font-family: 'Wire One';
   font-size: 200%;
   margin-left: 5px;
-  width: 40%;
+
  }
 
-a:hover {
+.active:hover {
    filter: blur(1px) grayscale(10%);
  }
 
@@ -89,11 +89,6 @@ a:hover {
   font-family: 'Wire One';
   letter-spacing: 2px;
   text-align: center;
-  /*-webkit-animation-name: contact;
-  -webkit-animation-duration: 4s;
-  animation-name: contact;
-  animation-duration: 15s;
-  animation-iteration-count: 1;*/
   -webkit-animation-name: resume;
   -webkit-animation-duration: 4s;
   animation-name: resume;
