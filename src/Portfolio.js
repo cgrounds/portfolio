@@ -53,7 +53,7 @@ render(){
         <a className="item" onMouseOver={(e) => this._displayInfo(e)} onMouseLeave={(e) => this._hideInfo(e)} target="_blank" href="https://bakertx.github.io/sandbox/"><img src={require('../public/images/sandbox.png')} role="presentation"/>
           <div className={cssClass}>
             <h2>Sandbox</h2>
-            <p>An educational tool that provides a real-time visual representation for the behavior of css properties. Sandbox is structured to render a component for the example box and control board depending which of the typography elements is selected. The control board then renders its corresponding properties while the example box also displays either an image or text. We separated out the control board elements to make them easily accessible if we are to add additional elements to the site.</p>
+            <p>This app was built with React.js and acts as an educational tool that provides a real-time visual representation for the behavior of css properties. Sandbox is structured to render a component for the example box and control board depending which of the typography elements is selected. The control board then renders its corresponding properties while the example box also displays either an image or text. We separated out the control board elements to make them easily accessible if we are to add additional elements to the site.</p>
             </div>
           </a>
 
