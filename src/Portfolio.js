@@ -57,6 +57,20 @@ render(){
             </div>
           </a>
 
+        <a className="item" onMouseOver={(e) => this._displayInfo(e)} onMouseLeave={(e) => this._hideInfo(e)} target="_blank" href="https://leroy.inexi.com/"><img src={require('../public/images/leroywhite.png')} role="presentation"/>
+          <div className={cssClass}>
+            <h2>LeRoy White</h2>
+            <p>Via Metasun Productions, I contributed to the LeRoy White WordPress website. For this project, I setup an authorization for a plugin used on the contact page to send messages to the band's official email. I also created a countdown page using HTML, CSS and JavaScript which showed visitors a countdown to the launch of the site.  Finally, I migrated the domain from the prior website to the current.</p>
+            </div>
+          </a>
+
+        <a className="item" onMouseOver={(e) => this._displayInfo(e)} onMouseLeave={(e) => this._hideInfo(e)} target="_blank" href="https://raudiculous.com/"><img src={require('../public/images/raudiculous.png')} role="presentation"/>
+          <div className={cssClass}>
+            <h2>Raudiculous</h2>
+            <p>I created raudiculous.com using WordPress. The site is a curration of thoughts and assemblies.</p>
+            </div>
+          </a>
+
       </div>
     )
   }
