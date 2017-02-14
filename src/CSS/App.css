@@ -58,9 +58,19 @@ a{
 
  }
 
-.active:hover {
+.navlink:hover {
    filter: blur(1px) grayscale(10%);
  }
+
+ /*.appDiv{
+   display: flex;
+   flex-direction: row;
+ }
+
+ .navDiv{
+   display: flex;
+   flex-direction: column;
+ }*/
 
  /*Contact Page*/
  @keyframes contact{

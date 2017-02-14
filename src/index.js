@@ -5,6 +5,7 @@ import Home from './Home.js'
 import Contact from './Contact.js'
 import About from './About.js'
 import Portfolio from './Portfolio.js'
+import Furniture from './Furniture.js'
 import Resume from './Resume.js'
 import NotFound from './NotFound.js'
 import {Router, Route, hashHistory, IndexRoute} from 'react-router';
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Route path="portfolio" component={Portfolio}/>
       <Route path="resume" component={Resume}/>
       <Route path="#" component={NotFound}/>
+      <Route path="furniture" component={Furniture}/>
     </Route>
 
   </Router>,

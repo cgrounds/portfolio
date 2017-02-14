@@ -7,17 +7,21 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-          <Link to="/" className="active">Home</Link>
+      <div className="appDiv">
+        <div className="navDiv">
+          <Link to="/" className="navlink">Home</Link>
           <br />
-          <Link to="/contact" className="active">Contact</Link>
+          <Link to="/contact" className="navlink">Contact</Link>
           <br />
-          <Link to="/about" className="active">About</Link>
+          <Link to="/about" className="navlink">About</Link>
           <br />
-          <Link to="/portfolio" className="active">Portfolio</Link>
+          <Link to="/portfolio" className="navlink">Portfolio</Link>
           <br />
-          <Link to="/resume" className="active">Resume</Link>
+          <Link to="/resume" className="navlink">Resume</Link>
+            <br />
+          <Link to="/furniture" className="navlink">Furniture</Link>
         {this.props.children}
+      </div>
       </div>
     );
   }
