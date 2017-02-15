@@ -5,8 +5,7 @@ img {
 
 .furniture{
   background-color: white;
-  /*width: 50%;*/
-  /*float: right;*/
-  display: flex;
-  flex-direction: row;
+  width: 50%;
+  float: right;
+
 }
