@@ -8,7 +8,6 @@ class App extends Component {
   render() {
     return (
       <div className="appDiv">
-        <div className="navDiv">
           <Link to="/" className="navlink">Home</Link>
           <br />
           <Link to="/contact" className="navlink">Contact</Link>
@@ -19,9 +18,10 @@ class App extends Component {
           <br />
           <Link to="/resume" className="navlink">Resume</Link>
             <br />
+          <Link to="https://cgrounds.github.io/zaragosa/#/" className="navlink">Shop</Link>
+            <br />
           <Link to="/furniture" className="navlink">Furniture</Link>
         {this.props.children}
-      </div>
       </div>
     );
   }
