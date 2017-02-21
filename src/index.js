@@ -25,4 +25,3 @@ ReactDOM.render(
   </Router>,
   document.getElementById('root')
 );
-// <Route path="*" component={NotFound}/>
