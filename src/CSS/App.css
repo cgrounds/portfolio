@@ -218,6 +218,9 @@ a{
   }
 }
 
+#resume{
+  padding-bottom: 10px;
+}
 
 #resume h2{
   text-align: center;
@@ -226,14 +229,20 @@ a{
 
 #resume h3{
   margin-left: 10px;
+  margin-top: 1px;
+  margin-bottom: 10px;
 }
 #resume h4{
-  margin-left: 40px;
+  margin-left: 20px;
   margin-top: 1px;
+  margin-bottom: 10px;
   padding-top: 1px;
 }
 #resume h5{
   margin-left: 60px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
 }
 #resume a{
   font-size: 30px;
@@ -241,4 +250,11 @@ a{
 }
 #design{
   text-align: center;
+}
+
+#resume .innerHref{
+  color: #EFCA08;
+  margin: 0;
+  font-size: 1.5em;
+  margin-left: 40px;
 }

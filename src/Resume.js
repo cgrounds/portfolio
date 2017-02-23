@@ -5,7 +5,19 @@ class Resume extends Component {
     return(
       <div id="resume">
           <h2>E X P E R I E N C E</h2>
-            <h3> <a href="http://www.lillalane.com">Lilla Lane</a>Assistant Director & Operations Manager </h3>
+            <h3>Freelance Web Design and Development</h3>
+              <h4>Austin, Texas</h4>
+
+              <a className="innerHref" href="http://www.leroywhite.com">Leroy White</a>
+                <h5>&#9702;Freelanced with Meta Sun Productions on the Leroy White website building a countdown website launch page, installing a PHP submit form page, and redirecting domains. </h5>
+
+              <a className="innerHref" href="http://www.vintagevibe.com">Vintage Vibe</a>
+                <h5>&#9702;Contributing to the design and development of the new Vintage Vibe site, building out schemas, creating HTML templates, and implementing liquid variables for site sections.</h5>
+
+              <a className="innerHref" href="http://www.hilldrestbuilders.com">Hillcrest Builders</a>
+                <h5>&#9702;Updating and managing the Hillcrest Builders site to keep portfolio and listings current.</h5>
+
+            <h3> <a href="http://www.lillalane.com">Lilla Lane</a>E-Commerce Director & Operations Manager </h3>
               <h4>Bali, Indonesia / Singapore</h4>
               <h5>&#9702;Oversaw and managed 4 retail stores in Bali and spearheaded the planning, construction and the opening of a new Singapore location</h5>
               <h5>&#9702;Adapted to diverse cultural environments and learned the native language to train, manage, and develop a team of 50+ employees</h5>
@@ -15,7 +27,7 @@ class Resume extends Component {
               <h5>&#9702;Directed the design process for women’s bags and shoes from creation to delivery </h5>
               <h5>&#9702;Overhauled and re-branded the e-commerce website www.lillalane.com and launched & managed social media campaigns to build product visiblity</h5>
 
-            <h3><a href="http://www.ralphlauren.com/shop/index.jsp?categoryId=11588650">Ralph Lauren - RRL</a>Sales Professional & Stylist</h3>
+            <h3><a href="http://www.ralphlauren.com/shop/index.jsp?categoryId=11588650">Ralph Lauren - RRL</a>Sales Professional, Product Presentation, & Merchandising</h3>
               <h4>East Hampton, New York / New York, New York / Austin, TX</h4>
               <h5>&#9702;Recognized as a top performing employee in the US, enabling me to relocate to highly competitive employment locations for summer seasons</h5>
               <h5>&#9702;Exceeded monthly goals and utilized cross-selling recommendations</h5>
@@ -48,11 +60,11 @@ class Resume extends Component {
 
           <h2>S K I L L S</h2>
             <h3>Languages</h3>
-              <h4>Fluent in English, Indonesian and Malay; intermediate Spanish</h4>
+              <h4>Fluent in English, Indonesian and Malay; Intermediate Spanish</h4>
             <h3>Design</h3>
-              <h4 id="design">&#9702;Adobe Creative Suite 6  &#9702;Product Photography &#9702;UXUI  &#9702;Bootstrap  &#9702;Social Media Marketing  &#9702;Graphic Design</h4>
+              <h4 id="design">&#9702; Adobe Creative Cloud  &#9702; Product Photography &#9702; UXUI   &#9702; Social Media Marketing  &#9702; Graphic Design</h4>
             <h3>Development</h3>
-              <h4 id="design">&#9702;HTML &#9702;CSS &#9702;Javascript  &#9702;React.js  &#9702;React Native  &#9702;Node.js &#9702;Angular &#9702;Mongoose &#9702;MongooseDB &#9702;AJAX &#9702;jQuery &#9702;Ruby &#9702;Ruby on Rails &#9702;mySQL &#9702;Firebase &#9702;Github &#9702;Git</h4>
+              <h4 id="design">&#9702; HTML &#9702; CSS &#9702; Javascript  &#9702; React.js &#9702; Bootstrap  &#9702; React Native  &#9702; Node.js &#9702; Angular &#9702; Mongoose &#9702; MongooseDB &#9702; AJAX &#9702; jQuery &#9702; Ruby &#9702; Ruby on Rails &#9702; mySQL &#9702; Firebase &#9702;Github &#9702;Git</h4>
 
       </div>
     )
